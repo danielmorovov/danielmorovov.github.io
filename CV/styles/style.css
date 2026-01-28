@@ -24,7 +24,7 @@ body {
 }
 
 .sidebar {
-    background: #764ba2;
+    background: #524ba2;
 	position: absolute;
 	right: 0;
 	width: 260px;
@@ -152,7 +152,7 @@ body {
     border: 1px solid transparent;
     border-radius: 4px;
 	background-color: #1f002a;
-	border-color: #764ba2;
+	border-color: #524ba2;
 }
 
 .lang-btn:hover {
@@ -213,7 +213,7 @@ body {
 .date {
     font-size: 14px;
 	font-weight: 500;
-    color: #c0a5dc;
+    color: #aea4ec;
 	margin-bottom: 0px;
 }
 
@@ -313,7 +313,7 @@ a:hover {
         position: static;
         width: 100%;
         min-height: auto;
-        background: #764ba2;
+        background: #524ba2;
         color: #FFFFFF;
         text-align: center;
 		order: 1;
