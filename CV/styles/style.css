@@ -298,6 +298,38 @@ a:hover {
 	text-decoration: underline;
 }
 
+details {
+    margin-bottom: 20px;
+}
+
+summary {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 500;
+    margin: 5px 0;
+    color: #747375;
+    list-style: none; /* Убираем стандартную стрелку */
+    }
+    
+summary::-webkit-details-marker {
+    display: none; /* Убираем стрелку в WebKit */
+}
+    
+summary:after {
+    content: '▼';
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+    
+details[open] summary:after {
+    transform: rotate(180deg);
+}
+    
+summary + ul {
+    margin-top: 10px;
+}
+
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
